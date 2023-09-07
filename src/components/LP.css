@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#ECFFDC;
+  }
+.wrapper{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.LandingPage{
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
+.logoContainer{
+    width: 188px;
+    height:110px;
+    margin-left: 58px; 
+}
+
+.Logo{
+    width: 150px;
+    height:150px; 
+
+  }
+
+.LandingContainer{
+    width:1200px;
+    margin-top:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.colImage{
+    width:630px;
+    height:638px;
+    margin-right:15px;
+    border-radius: 20px;
+    motion-rotation: -3.58deg;
+}
+
+.Heading{
+    width:676p;
+    height:200px;
+    /* font-family:VollKorn; */
+    font-family: 'Vollkorn', serif;
+    color: #7A4A22;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 80px;
+    text-align: left;
+    margin-top: 30px; 
+    margin-left: 67px; 
+}
+
+.Para{
+    /* font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color:#000000;
+    text-align: left;
+    margin-left: 70px;
+    line-height: 29.26px;
+    letter-spacing: 5%;
+}
